@@ -91,8 +91,8 @@ href="https://github.com/Dev-Diego"><img src="https://github.com/Dev-Diego.png" 
 
 ### 🤍 CREADOR 
 <a
-href="https://github.com/Angelito-OFC"><img src="https://github.com/Angelito-OFC.png" width="130" height="130" alt="Angelito"/></a>
+href="https://github.com/Giovanni-OFC"><img src="https://github.com/Giovanni-OFC.png" width="130" height="130" alt="Angelito"/></a>
 
-> Copyright (c) 2024 **[Angelito-OFC](https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y)**.
+> Copyright (c) 2024 **[Giovanni-OFC](https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y)**.
 
 **`¡GRACIAS POR PREFERIRNOS!` ☕**
