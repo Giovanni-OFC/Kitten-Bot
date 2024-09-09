@@ -1,6 +1,6 @@
 > 🐈‍⬛ Versión Actual: 1.4.0
 
-## 🤍 **`G E N E S I S - B O T`**
+## 🎀 **`G E N E S I S - B O T`**
 
 ![Genesis](https://ibb.co/VTkYkHt/065cb51125ef929ec0068335bfe2971d)
 <div align="center">
