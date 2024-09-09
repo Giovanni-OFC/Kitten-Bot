@@ -75,19 +75,7 @@
 
 > No Spam A La Bot!
 
----
-
-### ☁️ AGRADECIMIENTOS
-<a
-href="https://github.com/Dev-Diego"><img src="https://github.com/Dev-Diego.png" width="130" height="130" alt="Dev-Diego"/></a>
-
-### ☁️ COLABORADORES
-
-<a href="https://github.com/ale-rmz"><img src="https://github.com/ale-rmz.png" width="100" height="100" alt="ale-rmz"/></a>
-<a href="https://github.com/Maxz-on"><img src="https://github.com/Maxz-on.png" width="100" height="100" alt="Maxz-on"/></a>
-<a href="https://github.com/AkiraaX2"><img src="https://github.com/AkiraaX2.png" width="100" height="100" alt="AkiraaX2"/></a>
-<a href="https://github.com/Jostin-444"><img src="https://github.com/Jostin-444.png" width="100" height="100" alt="Jostin-444"/></a>
-<a href="https://github.com/MauroAzcurra"><img src="https://github.com/MauroAzcurra.png" width="100" height="100" alt="MauroAzcurra"/></a>
+---------------------
 
 ### 👑 CREADOR 
 <a
