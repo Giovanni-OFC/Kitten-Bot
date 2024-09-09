@@ -2,7 +2,7 @@
 
 ## 🎀 **`G E N E S I S - B O T`**
 
-![Genesis](https://ibb.co/VTkYkHt/065cb51125ef929ec0068335bfe2971d)
+![Genesis](https://qu.ax/AE.jpg)
 <div align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Oswald&weight=300&size=37&duration=3000&pause=100&color=000000&background=601D6E00&center=true&vCenter=true&repeat=true&random=FALSO&width=660&height=90&lines=Angel-OFC+lanzó;Nueva+versión+Genesis Bot - 1.4.0;BY:+Titanium+Team+y+Angel-OFC." alt="Typing SVG"/></a>
 </div>
