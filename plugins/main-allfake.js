@@ -49,11 +49,11 @@ global.rwait = '🕒'
 global.done = '✅'
 global.error = '✖️'
 
-//Emojis determinado de Ai Genesis
-global.emoji = '🤍'
-global.emoji2 = '🤍'
-global.emoji3 = '🤍'
-global.emoji4 = '🤍'
+//Emojis determinado de Ai Anyelita
+global.emoji = '🩷'
+global.emoji2 = '🩷'
+global.emoji3 = '🩷'
+global.emoji4 = '🩷'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 //mensaje en espera
@@ -64,7 +64,7 @@ global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'  
-var git = 'https://github.com/Angelito-OFC' 
+var git = 'https://github.com/Giovanni-OFC' 
 var github = 'https://github.com/Angelito-OFC/Genesis-OFC1' 
 var instagram = 'https://www.instagram.com/usxr_angelito0' 
 
