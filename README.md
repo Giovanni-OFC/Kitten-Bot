@@ -32,7 +32,7 @@
 
 > Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
 
-[![Click Aquí](https://img.shields.io/badge/Grupo-Genesis-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/FRaCmDsytYK51718DArQ1H)
+[![Click Aquí](https://img.shields.io/badge/Grupo-Anyelita-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/FRaCmDsytYK51718DArQ1H)
 
 
 ### **`☁️ CORINPLUS HOTS`**
