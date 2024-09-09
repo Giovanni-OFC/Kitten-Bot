@@ -5,7 +5,7 @@ let previousCommitSHA = '';
 let previousUpdatedAt = '';
 let previousCommitUser = ''; 
 const owner = 'Angelito-OFC';
-const repo = 'Genesis-OFC1';
+const repo = 'Anyelita-OFC1';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
  conn.sendMessage(m.chat, {text: `*✅️ Comando activado con éxito, te notificaremos cuando se actualize el repositorio.*`}, {quoted: estilo});  
 try {
