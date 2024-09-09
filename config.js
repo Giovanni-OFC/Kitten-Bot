@@ -14,7 +14,7 @@ global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
-['59168683798', 'Angel-OFC ☁️', true],
+['59168683798', 'Giovanni-OFC ☁️', true],
 ['59897246324', 'Asistencia ☁️', true],
 [''],
 [''],
@@ -26,15 +26,15 @@ global.prems = []
 global.mods = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = '𝗚𝗲𝗻𝗲𝘀𝗶𝘀 𝗕𝗼𝘁 𝗣𝗿𝗼'
+global.packname = '𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮 𝗕𝗼𝘁 𝗣𝗿𝗼'
 global.author = '@usxr_angelito0'
-global.wm = '𝗚𝗲𝗻𝗲𝘀𝗶𝘀 𝗣𝗿𝗼'
-global.titulowm = 'GenesisBot-Pro 🤍'
+global.wm = '𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮 𝗣𝗿𝗼'
+global.titulowm = 'AnyelitaBot-Pro 🩷'
 global.titulowm2 = ''
 global.igfg = '@usxr_angelito0'
-global.botname = '𝗚𝗲𝗻𝗲𝘀𝗶𝘀𝗕𝗼𝘁 🤍'
-global.dev = '`𝗚𝗲𝗻𝗲𝘀𝗶𝘀𝗕𝗼𝘁 🤍`\n*By • Titanium Team 💥*'
-global.textbot = '𝗚𝗲𝗻𝗲𝘀𝗶𝘀𝗕𝗼𝘁 : 𝗔𝗻𝗴𝗲𝗹𝗶𝘁𝗼 🤍'
+global.botname = '𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮𝗕𝗼𝘁 🩷'
+global.dev = '`𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮𝗕𝗼𝘁 🩷`\n*By • Titanium Team 💥*'
+global.textbot = '𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮𝗕𝗼𝘁 : 𝗚𝗶𝗼𝘃𝗮𝗻𝗻𝗶 🩷'
 global.vs = '1.4.0'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
@@ -44,7 +44,7 @@ global.imagen3 = fs.readFileSync('./Menu3.jpg')
 global.catalogo = fs.readFileSync('./media/catalogo.jpg')
 
 //• ↳ ◜𝑭𝑨𝑲𝑬 𝑬𝑺𝑻𝑰𝑳𝑶◞ • 🪩
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '𝗚𝗲𝗻𝗲𝘀𝗶𝘀𝗕𝗼𝘁-𝗠𝗗', orderTitle: 'packname', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮𝗕𝗼𝘁-𝗠𝗗', orderTitle: 'packname', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
 global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Megumin', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𖥔.𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨❞ ꔷ──᜔◇⃟̣̣⃕✨', jpegThumbnail: catalogo }}};
 
