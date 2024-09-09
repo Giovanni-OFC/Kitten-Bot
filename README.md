@@ -1,8 +1,8 @@
 > 🐈‍⬛ Versión Actual: 1.4.0
 
-## 🎀 **`G E N E S I S - B O T`**
+## 🎀 **`A N Y E L I T A - B O T`**
 
-![Genesis](https://qu.ax/SFnp.jpg)
+![Anyelita](https://qu.ax/ZlNo.jpg)
 <div align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Oswald&weight=300&size=37&duration=3000&pause=100&color=000000&background=601D6E00&center=true&vCenter=true&repeat=true&random=FALSO&width=660&height=90&lines=Angel-OFC+lanzó;Nueva+versión+Genesis Bot - 1.4.0;BY:+Titanium+Team+y+Angel-OFC." alt="Typing SVG"/></a>
 </div>
@@ -15,7 +15,7 @@
 
 
 
-<a href="https://api.whatsapp.com/send/?phone=+59897246324&text=Hola 👋 soporte de Génesis Bot &type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
+<a href="https://api.whatsapp.com/send/?phone=+59897246324&text=Hola 👋 soporte de Anyelita Bot &type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
  <a href="http://www.instagram.com/usxr_angelito0" target="blank"><img src="https://img.shields.io/badge/Instagram-30302f?style=flat&logo=instagram" /></a>
 <a href="https://www.threads.net/@usxr_angelito0" target="blank"><img src="https://img.shields.io/badge/Threads-30302f?style=flat&logo=threads" /></a>
 <a href="https://x.com/usxr_angelito0" target="blank"><img src="https://img.shields.io/badge/Twitter-30302f?style=flat&logo=x" /></a>
