@@ -42,7 +42,7 @@ let handler = async (m, {
 }
 handler.help = ["Anyelitaimg"].map(v => v + " (img)");
 handler.tags = ["ai"];
-handler.command = /^(genesisimg)$/i;
+handler.command = /^(Anyelitaimg)$/i;
 handler.limit = true;
 export default handler;
 
