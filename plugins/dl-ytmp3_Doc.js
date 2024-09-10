@@ -23,7 +23,7 @@ let thumbnail = await yt.thumbnail
 
 let img = await (await fetch(`${thumbnail}`)).buffer()  
 if (size.split('MB')[0] >= limit) return star.reply(m.chat, `El archivo pesa mas de ${limit} MB, se cancelÃ³ la Descarga.`, m, rcanal).then(_ => m.react('✅'))
-await star.sendMessage(m.chat, { document: { url: dl_url }, caption: '*By: GenesisBot*', mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, { quoted: fkontak })
+await star.sendMessage(m.chat, { document: { url: dl_url }, caption: '*By: AnyelitaBot*', mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, { quoted: fkontak })
 await m.react('✅')
 } catch {
 await m.react('🕒')
