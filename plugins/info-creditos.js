@@ -8,7 +8,7 @@ let staff = `☁️ *EQUIPO DE AYUDANTES*
 • Giovanni-OFC
 ☁️ *Rol:* Propietario
 ☁️ *Número:* ${creador}
-☁️ *GitHub:* https://github.com/Angelito-OFC
+☁️ *GitHub:* https://github.com/Giovanni-OFC
 
 🩷 *Colaboradores:* 🩷
 
