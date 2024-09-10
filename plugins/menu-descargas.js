@@ -14,7 +14,7 @@ const defaultMenu = {
 
  '︶꒦꒷♡꒷꒦︶.
 ┊✶ 𝐂𝐥𝐢𝐞𝐧𝐭𝐞: %name
-┊┊✶ 𝐁𝐨𝐭: Génesis Bot
+┊┊✶ 𝐁𝐨𝐭: Anyelita Bot
 ┊┊✶ 𝐌𝐨𝐝𝐨: Público
 ┊┊✶ 𝐅𝐞𝐜𝐡𝐚: ${fecha}
 ┊┊✶ 𝐔𝐬𝐞𝐫𝐬: %totalreg
@@ -190,8 +190,8 @@ await m.react('📥')
         text: text,
         contextInfo: {
         externalAdReply: {
-        title: '𝐆𝐞𝐧𝐞𝐬𝐢𝐬𝐁𝐨𝐭-𝐌𝐃',
-        body: '©𝟐𝟎𝟐𝟒 𝐀𝐧𝐠𝐞𝐥𝐢𝐭𝐨-𝐎𝐅𝐂',
+        title: '𝐀𝐧𝐲𝐞𝐥𝐢𝐭𝐚𝐁𝐨𝐭-𝐌𝐃',
+        body: '©𝟐𝟎𝟐𝟒 𝐆𝐢𝐨𝐯𝐚𝐧𝐧𝐢-𝐎𝐅𝐂',
         thumbnailUrl: img,
         sourceUrl: global.canal,
         mediaType: 1,
