@@ -1,6 +1,6 @@
 var handler  = async (m, { conn }) => {
 
-let texto = `🤍 *Instalación de GenesisBot-MD*
+let texto = `🩷 *Instalación de AnyelitaBot-MD*
 
 ☕ Dudas: ${creador}
 ☕ Tutoríal: *¡Pronto!*
@@ -21,9 +21,9 @@ npm update
 
 npm start
 
-_Utilice "comandos" para enviarle los comandos uno por uno 🤍_
+_Utilice "comandos" para enviarle los comandos uno por uno 🩷_
 
-_Utilice ".olympus o .corinplus" para enviarle la instalación por cualquiera de los 2 *Hosting* 🤍_`
+_Utilice ".olympus o .corinplus" para enviarle la instalación por cualquiera de los 2 *Hosting* 🩷_`
 
 conn.reply(m.chat, texto, m, rcanal )
 
