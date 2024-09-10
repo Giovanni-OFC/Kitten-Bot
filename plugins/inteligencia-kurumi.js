@@ -1,4 +1,4 @@
-// codigo adaptado por Angel-OFC 
+// codigo adaptado por Giovanni-OFC
 import fetch from 'node-fetch';
 
 let handler = async (m, {
