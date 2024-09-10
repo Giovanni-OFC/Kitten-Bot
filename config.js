@@ -62,9 +62,9 @@ global.bgp = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6' //GRUPO DE AVISO
 global.bgp2 = 'https://chat.whatsapp.com/GmvA6FdBb52B3dNtcDCFAJ' //GRUPO GLOBAL 1
 global.bgp3 = 'https://chat.whatsapp.com/IfASvKKUqZBGCT3bKO7wla' //GRUPO GLOBAL 2
 global.bgp4 = 'https://chat.whatsapp.com/Fn5Ipyxu6mE6qEQlwWZTwU' //GRUPO NSFW
-global.md = 'https://github.com/Giovanni-OFC/Genesis-OFC' //Github Oficial
-global.ig = 'https://www.instagram.com/usxr_angelito0' //Ig Oficial
-global.correo = 'agasistencia2@gmail.com'
+global.md = 'https://github.com/Giovanni-OFC/Anyelita-Bot' //Github Oficial
+global.ig = 'https://www.instagram.com/dzn._anyelita?igsh=MWcwZnN5MTBlNXVqNg==' //Ig Oficial
+global.correo = 'gemersport7@gmail.com'
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
