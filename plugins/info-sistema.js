@@ -51,7 +51,7 @@ const handler = async (m, { conn }) => {
 → Arreglos: ${formatBytes(nodeUsage.arrayBuffers)}
 ${diskSpace ? `
 
-☁️ *Espacio en Disco:*
+🌸 *Espacio en Disco:*
 → Tamaño Total: ${diskSpace.size}
 → Usado: ${diskSpace.used}
 → Disponible: ${diskSpace.available}
