@@ -55,9 +55,7 @@ global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remote
 global.estilox = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐', orderTitle: 'packname', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.id_canal = '120363220939514640@newsletter' //-ID de canal de WhatsApp
-global.canal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y' //CANAL GENESIS
-global.canal2 = 'https://whatsapp.com/channel/0029VafjvaaEgGfOe5KdmX1n' //CANAL TITANIUM TEAM
+global.id_canal = '120363315614329082@newsletter' //-ID de canal de WhatsApp
 global.bgp = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6' //GRUPO DE AVISOS
 global.bgp2 = 'https://chat.whatsapp.com/GmvA6FdBb52B3dNtcDCFAJ' //GRUPO GLOBAL 1
 global.bgp3 = 'https://chat.whatsapp.com/IfASvKKUqZBGCT3bKO7wla' //GRUPO GLOBAL 2
