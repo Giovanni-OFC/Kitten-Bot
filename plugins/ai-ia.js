@@ -142,7 +142,7 @@ text: res.message,
 contextInfo: {
 externalAdReply: {
 title: '[ 𝗖 𝗢 𝗣 𝗜 𝗟 𝗢 𝗧 ]',
-body: '©𝟐𝟎𝟐𝟒 𝐀𝐧𝐠𝐞𝐥𝐢𝐭𝐨-𝐎𝐅𝐂',
+body: '©𝟐𝟎𝟐𝟒 𝐆𝐢𝐨𝐯𝐚𝐧𝐧𝐢-𝐎𝐅𝐂',
 thumbnailUrl: 'https://tinyurl.com/27pcefrx',
 sourceUrl: canal,
 mediaType: 1,
