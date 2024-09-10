@@ -31,14 +31,14 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `“𝐇𝐨𝐥𝐚 *%name* 𝐒𝐨𝐲 𝐆𝐞𝐧𝐞𝐬𝐢𝐬𝐁𝐨𝐭, %greeting"
+  before: `“𝐇𝐨𝐥𝐚 *%name* 𝐒𝐨𝐲 𝐀𝐧𝐲𝐞𝐥𝐢𝐭𝐚𝐁𝐨𝐭, %greeting"
 
 ✧ ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬ ✧ 
 
  '︶꒦꒷♡꒷꒦︶.
 ┊✶ 𝐂𝐥𝐢𝐞𝐧𝐭𝐞: %name
-┊┊✶ 𝐁𝐨𝐭: Génesis Bot
-┊┊✶ 𝐌𝐨𝐝𝐨: Público
+┊┊✶ 𝐁𝐨𝐭: Anyelita Bot
+┊┊✶ 𝐌𝐨𝐝𝐨: Privado
 ┊┊✶ 𝐓𝐢𝐞𝐦𝐩𝐨 𝐚𝐜𝐭: %muptime
 ┊┊✶ 𝐔𝐬𝐞𝐫𝐬: %totalreg
 ┊┊✶ 𝐂𝐨𝐫𝐚𝐳𝐨𝐧𝐞𝐬: %corazones
@@ -162,8 +162,8 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegr
   const gif = await response.buffer()
  // const img = imagen1
 
-await m.react('🤍') 
-await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲 𝗹𝗮 𝗕𝗼𝘁...𓏲੭*', fakegif3, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '🤍 ¡Génesis la mejor Bot!', sourceUrl: canal, thumbnail: icons }}})
+await m.react('🩷') 
+await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲 𝗹𝗮 𝗕𝗼𝘁...𓏲੭*', fakegif3, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '🩷 ¡Anyelita la mejor Bot!', sourceUrl: canal, thumbnail: icons }}})
 
 // await conn.reply(m.chat, '🍟 Enviando el menú.....', m, rcanal)
 
