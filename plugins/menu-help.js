@@ -50,8 +50,8 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let menu = ``;
 
     let txt = ""
-    txt += '`亗ः𖤍⠿❥ 𝑪𝑹𝑬𝑨𝑫𝑶𝑹 :`' + ` Jostin-444\n`;
-    txt += '`亗ः𖤍⠿❥ 𝑵𝑰𝑪𝑲𝑩𝑶𝑻 :`' + ` MaxBot\n`;
+    txt += '`亗ः𖤍⠿❥ 𝑪𝑹𝑬𝑨𝑫𝑶𝑹 :`' + ` Giovanni-OFC\n`;
+    txt += '`亗ः𖤍⠿❥ 𝑵𝑰𝑪𝑲𝑩𝑶𝑻 :`' + ` Anyelita-Bot\n`;
     txt += '`亗ः𖤍⠿❥ 𝑽𝑬𝑹𝑪𝑰𝑶𝑵 :`' + ` ${fecha}\n`;
     txt += '`亗ः𖤍⠿❥ 𝑽𝑬𝑹𝑪𝑰𝑶𝑵 :`' + ` ${vs}\n`;
     txt += `${sbot}\n`;
