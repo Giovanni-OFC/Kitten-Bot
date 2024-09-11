@@ -32,10 +32,10 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
 //creador y otros
-global.creador = 'Wa.me/59897246324'
+global.creador = 'Wa.me/50242073893'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/59897246324'
-global.namechannel = '✯ 𝐆𝐞𝐧𝐞𝐬𝐢𝐬 - 𝐁𝐨𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✯'
+global.namechannel = '✯ 𝐀𝐧𝐲𝐞𝐥𝐢𝐭𝐚 - 𝐁𝐨𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✯'
 global.namechannel2 = '𝗠𝗼𝗼𝗻𝗹𝗶𝗴𝗵𝘁 - 𝗧𝗲𝗮𝗺'
 global.namegrupo = '𝗚𝗿𝗼𝘂𝗽 𝗔𝗶 𝗬𝗮𝗲𝗺𝗼𝗿𝗶'
 global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗔𝗶 𝗬𝗮𝗲𝗺𝗼𝗿𝗶'
@@ -65,8 +65,8 @@ global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'  
 var git = 'https://github.com/Giovanni-OFC' 
-var github = 'https://github.com/Angelito-OFC/Genesis-OFC1' 
-var instagram = 'https://www.instagram.com/usxr_angelito0' 
+var github = 'https://github.com/Giovanni-OFC/Anyelita-Bot' 
+var instagram = 'https://www.instagram.com/dzn._anyelita?igsh=MWcwZnN5MTBlNXVqNg==' 
 
 global.redes = [canal, git, github, instagram].getRandom()
 
@@ -102,7 +102,7 @@ global.estiloaudio = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, .
 global.ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 99, status: 1, surface: 1, message: wm, orderTitle: wm, sellerJid: '0@s.whatsapp.net' } } }
 let fgif = {key: {participant : '0@s.whatsapp.net'}, message: {"videoMessage": { "title": wm, "h": `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.jpg')}}}
 
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363220939514640@newsletter', newsletterName: "𝑮𝒆𝒏𝒆𝒔𝒊𝒔-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍", serverMessageId: -1 }
+global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363220939514640@newsletter', newsletterName: "𝐀𝐧𝐲𝐞𝐥𝐢𝐭𝐚-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍", serverMessageId: -1 }
 }}, { quoted: m }
 
 global.icono = [ 
@@ -113,6 +113,6 @@ global.icono = [
 'https://qu.ax/sTvd.jpg',
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363220939514640@newsletter", serverMessageId: 100, newsletterName: '𝑮𝒆𝒏𝒆𝒔𝒊𝒔-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍', }, externalAdReply: { showAdAttribution: true, title: packname, body: '🤍 ¡Génesis Super Bot!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363220939514640@newsletter", serverMessageId: 100, newsletterName: '𝐀𝐧𝐲𝐞𝐥𝐢𝐭𝐚-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍', }, externalAdReply: { showAdAttribution: true, title: packname, body: '🩷 ¡Anyelita Super Bot!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
