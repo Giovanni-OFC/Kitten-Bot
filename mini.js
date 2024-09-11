@@ -281,7 +281,7 @@ process.on('uncaughtException', console.error)
 /*async function connectSubBots() {
 const subBotDirectory = './GenesisJadiBot';
 if (!existsSync(subBotDirectory)) {
-console.log('🌟 GenesisBot-MD no tiene Sub-Bots vinculados.');
+console.log('🌟 AnyelitaBot-MD no tiene Sub-Bots vinculados.');
 return;
 }
 
@@ -308,7 +308,7 @@ const mainBotAuthFile = 'GenesisSession';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`⭐ GenesisBot-MD conectado correctamente.`))
+console.log(chalk.bold.greenBright(`⭐ AnyelitaBot-MD conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
