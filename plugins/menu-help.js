@@ -76,7 +76,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
             },
             {
                 header: "𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 🩷",
-                title: "`Pupular`",
+                title: " `Pupular` ",
                 description: `MENU COMPLETO`,
                 id: `.allmenu`,
             },
