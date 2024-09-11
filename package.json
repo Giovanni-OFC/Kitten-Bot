@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
 
-"homepage": "https://github.com/Angelito-OFC/GenesisBot-MD",
+"homepage": "https://github.com/Giovanni-OFC/Anyelita-Bot",
 "author": {
-"name": "Angelito-OFC" },
+"name": "Giovanni-OFC" },
 
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Angelito-OFC/GenesisBot-MD.git" },
+"url": "git+https://github.com/Giovanni-OFC/Anyelita-Bot.git" },
 
 "bugs": {
-"url": "https://github.com/Angelito-OFC/GenesisBot-MD/issues" },
+"url": "https://github.com/Giovanni-OFC/Anyelita-Bot/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@adiwajshing/keyed-db": "^0.2.4",
