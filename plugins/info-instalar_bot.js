@@ -11,7 +11,7 @@ termux-setup-storage
 
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 
-git clone https://github.com/Angelito-OFC/GenesisBot-Pro && cd GenesisBot-MD
+git clone https://github.com/Giovanni-OFC/Anyelita-Bot && cd Anyelita-Bot
 
 yarn install
 
