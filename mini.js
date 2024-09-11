@@ -279,7 +279,7 @@ process.on('uncaughtException', console.error)
 /* Echo por: https://github.com/elrebelde21 */
 
 /*async function connectSubBots() {
-const subBotDirectory = './GenesisJadiBot';
+const subBotDirectory = './AnyelitaJadiBot';
 if (!existsSync(subBotDirectory)) {
 console.log('🌟 AnyelitaBot-MD no tiene Sub-Bots vinculados.');
 return;
