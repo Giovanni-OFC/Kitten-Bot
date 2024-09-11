@@ -1,7 +1,7 @@
 
 let handler = async (m, { conn, command, usedPrefix }) => {
-let pp = 'https://i.ibb.co/8g5yZr5/file.jpg'
-m.react('🤍')
+let pp = 'https://qu.ax/ZlNo.jpg'
+m.react('🩷')
 let name = await conn.getName(m.sender)
 let _uptime = process.uptime() * 1000
 let _muptime
@@ -14,7 +14,7 @@ let estado = `\`乂 S C R I P T  -  B O T\`
 > 😼 *Te gusta nuestro Bot te invito a dejarnos una estrella a nuestro repositorio para seguir mejorando nuestro Bot* ☕
 `
 await conn.sendButton(m.chat, estado, '@usxr_angelito0', pp, [
-['DUEÑO 🤍', '.owner']], null, [['GIT HUB 🤍', `https://github.com/Angelito-OFC/GenesisBot-MD`]], m)
+['DUEÑO 🩷', '.owner']], null, [['GIT HUB 🩷', `https://github.com/Giovanni-OFC/Anyelita-Bot`]], m)
 }
 handler.help = ['script']
 handler.tags = ['info']
