@@ -26,8 +26,8 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 
     let sbot =
         conn.user.jid == global.conn.user.jid
-        ? "`亗ः𖤍⠿☛ 𝐁𝐎𝐓:` Principal"
-        : "`亗ः𖤍⠿☛ 𝐁𝐎𝐓:` Sub - Bot de" + `  Wa.me/${global.conn.user.jid.split`@`[0]}`;
+        ? "`亗ः𖤍⠿❥ 𝐁𝐎𝐓:` Principal"
+        : "`亗ः𖤍⠿❥ 𝐁𝐎𝐓:` Sub - Bot de" + `  Wa.me/${global.conn.user.jid.split`@`[0]}`;
 
     global.fcontact = {
         key: {
@@ -37,7 +37,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         },
         message: {
             contactMessage: {
-                displayName: `\n𝗠 𝗔 𝗫 𝗕 𝗢 𝗧 𝗣 𝗥 𝗢`,
+                displayName: `\n𝘼 𝙉 𝙔 𝙀 𝙇 𝙄 𝙏 𝘼 𝙋 𝙍 𝙊`,
                 vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${username}\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
             },
         },
@@ -50,23 +50,23 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let menu = ``;
 
     let txt = ""
-    txt += '`亗ः𖤍⠿☛ 𝑪𝑹𝑬𝑨𝑫𝑶𝑹 :`' + ` Jostin-444\n`;
-    txt += '`亗ः𖤍⠿☛ 𝑵𝑰𝑪𝑲𝑩𝑶𝑻 :`' + ` MaxBot\n`;
-    txt += '`亗ः𖤍⠿☛ 𝑽𝑬𝑹𝑪𝑰𝑶𝑵 :`' + ` ${fecha}\n`;
-    txt += '`亗ः𖤍⠿☛ 𝑽𝑬𝑹𝑪𝑰𝑶𝑵 :`' + ` ${vs}\n`;
+    txt += '`亗ः𖤍⠿❥ 𝑪𝑹𝑬𝑨𝑫𝑶𝑹 :`' + ` Jostin-444\n`;
+    txt += '`亗ः𖤍⠿❥ 𝑵𝑰𝑪𝑲𝑩𝑶𝑻 :`' + ` MaxBot\n`;
+    txt += '`亗ः𖤍⠿❥ 𝑽𝑬𝑹𝑪𝑰𝑶𝑵 :`' + ` ${fecha}\n`;
+    txt += '`亗ः𖤍⠿❥ 𝑽𝑬𝑹𝑪𝑰𝑶𝑵 :`' + ` ${vs}\n`;
     txt += `${sbot}\n`;
-    txt += '`亗ः𖤍⠿☛ 𝑷𝑹𝑬𝑭𝑰𝑱𝑶 :`' + ` [  ${usedPrefix}  ]\n`;
+    txt += '`亗ः𖤍⠿❥ 𝑷𝑹𝑬𝑭𝑰𝑱𝑶 :`' + ` [  ${usedPrefix}  ]\n`;
     txt += '``' + ` ${totalUsers || '0'}\n`;
-    txt += '`亗ः𖤍⠿☛ 𝑼𝑺𝑼𝑨𝑹𝑰𝑶𝑺 :`' + ` ${totalusr}\n`;
-    txt += '`亗ः𖤍⠿☛ 𝑽𝑬𝑹𝑰𝑭𝑰𝑪𝑨𝑫𝑶𝑺 :`' + ` ${rtotalreg}\n`;
-    txt += '`亗ः𖤍⠿☛ 𝑨𝑪𝑻𝑰𝑽𝑶 :`' + ` ${uptime}\n`;
-    txt += '`亗ः𖤍⠿☛ 𝑪𝑹𝑬𝑨𝑫𝑶𝑹 :` #owner\n';
+    txt += '`亗ः𖤍⠿❥ 𝑼𝑺𝑼𝑨𝑹𝑰𝑶𝑺 :`' + ` ${totalusr}\n`;
+    txt += '`亗ः𖤍⠿❥ 𝑽𝑬𝑹𝑰𝑭𝑰𝑪𝑨𝑫𝑶𝑺 :`' + ` ${rtotalreg}\n`;
+    txt += '`亗ः𖤍⠿❥ 𝑨𝑪𝑻𝑰𝑽𝑶 :`' + ` ${uptime}\n`;
+    txt += '`亗ः𖤍⠿❥ 𝑪𝑹𝑬𝑨𝑫𝑶𝑹 :` #owner\n';
     txt += "᳝꩖͜͡•꙰──────▧⃟╳⃟ೇ─────𖡜ꦽ̸ོ˚￫ ݈݇─";
 
     let listSections = [];
 
         listSections.push({
-        title: `🔖 SELECCIÓNA LO QUE NECESITES`, highlight_label: `Popular 𝗠𝗔𝗫-𝗕𝗢𝗧`,
+        title: `🔖 SELECCIÓNA LO QUE NECESITES`, highlight_label: `Popular 𝘼𝙉𝙔𝙀𝙇𝙄𝙏𝘼-𝘽𝙊𝙏`,
         rows: [
             {
                 header: "𝗔𝗨𝗧𝗢 𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗥 ✅",
@@ -75,7 +75,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 id: `#reg 食𝐕̲͟ⳤ͢⃝̵̵🧧᭄̯⳱.18`,
             },
             {
-                header: "𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 💙",
+                header: "𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 🩷",
                 title: "",
                 description: `MENU COMPLETO`,
                 id: `.allmenu`,
@@ -111,7 +111,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 id: `${usedPrefix}menuai`,
             },
             {
-                header: "𝗥𝗘𝗗𝗘𝗦 𝗠𝗮𝘅-𝗕𝗼𝘁 🍄",
+                header: "𝗥𝗘𝗗𝗘𝗦 𝘼𝙣𝙮𝙚𝙡𝙞𝙩𝙖-𝘽𝙤𝙩 ",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘭𝘢𝘴 𝘳𝘦𝘥𝘦𝘴 𝘥𝘦𝘭 𝘣𝘰𝘵`,
                 id: `${usedPrefix}redes`,
