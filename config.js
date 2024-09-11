@@ -14,14 +14,14 @@ global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
-['59168683798', 'Giovanni-OFC ☁️', true],
-['59897246324', 'Asistencia ☁️', true],
+['50242073893', 'Giovanni-OFC 🌸', true],
+['50242073893', 'Asistencia 🌸', true],
 [''],
 [''],
 [''],
 ['']]
 
-global.suittag = ['573012482597']
+global.suittag = ['51917161566']
 global.prems = []
 global.mods = []
 
