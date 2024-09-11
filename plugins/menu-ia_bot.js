@@ -8,20 +8,20 @@ import fetch from 'node-fetch'
 const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
 
 const defaultMenu = {
-  before: `“𝐇𝐨𝐥𝐚 *%name* 𝐒𝐨𝐲 𝐀𝐧𝐲𝐞𝐥𝐢𝐭𝐚𝐁𝐨𝐭, 𝐓𝐞𝐧 𝐮𝐧 𝐛𝐮𝐞𝐧 𝐝𝐢𝐚"
+  before: `“𝐇𝐨𝐥𝐚 *%name* 𝐒𝐨𝐲 𝐌𝐚𝐱-𝐁𝐨𝐭"
 
-✧ ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬ ✧ 
+◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆
 
  '︶꒦꒷♡꒷꒦︶.
-┊✶ 𝐂𝐥𝐢𝐞𝐧𝐭𝐞: %name
-┊┊✶ 𝐁𝐨𝐭: Anyelita Bot
-┊┊✶ 𝐌𝐨𝐝𝐨: Público
-┊┊✶ 𝐅𝐞𝐜𝐡𝐚: ${fecha}
-┊┊✶ 𝐔𝐬𝐞𝐫𝐬: %totalreg
-┊┊✶ 𝐍𝐢𝐯𝐞𝐥: %level 
+┊𖣘 𝐂𝐥𝐢𝐞𝐧𝐭𝐞: %name
+┊┊𖣘 𝐁𝐨𝐭: Max Bot
+┊┊𖣘 𝐌𝐨𝐝𝐨: Público
+┊┊𖣘 𝐅𝐞𝐜𝐡𝐚: ${fecha}
+┊┊𖣘 𝐔𝐬𝐞𝐫𝐬: %totalreg
+┊┊𖣘 𝐍𝐢𝐯𝐞𝐥: %level 
 . .‿̩͙‿̩̩̥͙̽‿̩͙‿̩͙‿̩̩̥͙̽‿̩͙‿̩͙‿̩̩̥͙̽‿̩͙‿̩͙‿̩̩̥͙̽‿̩͙┉ˏ͛ ༝̩̩̥͙　 ҉　
 
-✦•····················•✦•···················•✦
+༺═─────✿━━━━•─────✧─────•━━━━✿─────═༻
 %readmore
 `.trimStart(),
   header: '✞͙͙͙͙͙͙͙͙͙͙⏜❟︵ֹ̩̥̩̥̩̥̩̩̥⏜੭*•̩̩͙✩•̩̩͙*˚୧ֹ⏜︵ֹ̩̥̩̥̩̥̩̥̩̥̩̥̩̥❟⏜፞✞͙͙͙͙͙͙͙͙͙͙\n╠ • ˗ˏ✎*ೃ `%category`\n╠ ┈──✦﹀﹀|﹀﹀﹕₊˚ ✧. *. ⋆\n╠ ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈',
@@ -33,7 +33,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
 'ai': '𝐀𝐈 𝐁𝐎𝐓',
 }
-let img = 'https://i.ibb.co/8g5yZr5/file.jpg'
+let img = 'https://i.ibb.co/V2RCxR6/file.jpg'
 
   try {
           // DEFAULT MENU
@@ -186,8 +186,19 @@ let img = 'https://i.ibb.co/8g5yZr5/file.jpg'
  let fkon = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
 await m.react('☕') 
 
-await conn.sendButton(m.chat, text, '@usxr_angelito0', img, [
-['MENU COMPLETO🤍', '.allmenu'], ['DUEÑO 🫧', '.owner']], null, [['CANAL 🐈‍⬛', `${canal}`]], m)
+ conn.sendMessage(m.chat, {
+        text: text,
+        contextInfo: {
+        externalAdReply: {
+        title: '𝐌𝐚𝐱-𝐁𝐨𝐭',
+        body: '©𝟐𝟎𝟐𝟒 𝐉𝐨𝐬𝐭𝐢𝐧-444',
+        thumbnailUrl: img,
+        sourceUrl: global.canal,
+        mediaType: 1,
+        renderLargerThumbnail: true
+        }}},
+        { quoted: estilo})
+
   } catch (e) {
     conn.reply(m.chat, 'Lo siento, el menú tiene un error.', m)
     throw e
