@@ -57,7 +57,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     txt += `${sbot}\n`;
     txt += '`亗ः𖤍⠿❥ 𝑷𝑹𝑬𝑭𝑰𝑱𝑶 :`' + ` [  ${usedPrefix}  ]\n`;
     txt += '``' + ` ${totalUsers || '0'}\n`;
-    txt += '`亗ः𖤍⠿❥ 𝑼𝑺𝑼𝑨𝑹𝑰𝑶𝑺 :`' + `${totalusr}\n`;
+    txt += '`亗ः𖤍⠿❥ 𝑼𝑺𝑼𝑨𝑹𝑰𝑶𝑺 :`' + ` ${totalusr}\n`;
     txt += '`亗ः𖤍⠿❥ 𝑽𝑬𝑹𝑰𝑭𝑰𝑪𝑨𝑫𝑶𝑺 :`' + ` ${rtotalreg}\n`;
     txt += '`亗ः𖤍⠿❥ 𝑨𝑪𝑻𝑰𝑽𝑶 :`' + ` ${uptime}\n`;
     txt += '`亗ः𖤍⠿❥ 𝑪𝑹𝑬𝑨𝑫𝑶𝑹 :` #owner\n';
@@ -76,7 +76,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
             },
             {
                 header: "𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 🩷",
-                title: "",
+                title: "hola",
                 description: `MENU COMPLETO`,
                 id: `.allmenu`,
             },
@@ -138,14 +138,14 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     });
 
     let vid = "https://telegra.ph/file/1cf7cec1bba1dd12e5723.mp4";
-    let img = "https://i.ibb.co/G5WJFPk/file.jpg";
-    let img2 = "https://i.ibb.co/L5GFfq2/file.jpg";
-    let img3 = "https://telegra.ph/file/e91640f6a39f1c3c61481.jpg";
-    let img4 = "https://telegra.ph/file/e91640f6a39f1c3c61481.jpg";
-    let img5 = "https://telegra.ph/file/e91640f6a39f1c3c61481.jpg";
-    let img6 = "https://telegra.ph/file/e91640f6a39f1c3c61481.jpg";
-    let img8 = "https://telegra.ph/file/e91640f6a39f1c3c61481.jpg";
-    let img9 = "https://telegra.ph/file/e91640f6a39f1c3c61481.jpg";
+    let img = "https://qu.ax/ZlNo.jpg";
+    let img2 = "https://qu.ax/ZlNo.jpg";
+    let img3 = "https://qu.ax/ZlNo.jpg";
+    let img4 = "https://qu.ax/ZlNo.jpg";
+    let img5 = "https://qu.ax/ZlNo.jpg";
+    let img6 = "https://qu.ax/ZlNo.jpg";
+    let img8 = "https://qu.ax/ZlNo.jpg";
+    let img9 = "https://qu.ax/ZlNo.jpg";
     let img10 = "https://telegra.ph/file/e91640f6a39f1c3c61481.jpg";
     let img11 = "https://telegra.ph/file/c1ae1795e674be894f7fc.jpg";
 
