@@ -76,7 +76,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
             },
             {
                 header: "𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 🩷",
-                title: "hola",
+                title: "`Pupular`",
                 description: `MENU COMPLETO`,
                 id: `.allmenu`,
             },
@@ -137,7 +137,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         ],
     });
 
-    let vid = "https://telegra.ph/file/1cf7cec1bba1dd12e5723.mp4";
+    let vid = "https://qu.ax/ZlNo.jpg";
     let img = "https://qu.ax/ZlNo.jpg";
     let img2 = "https://qu.ax/ZlNo.jpg";
     let img3 = "https://qu.ax/ZlNo.jpg";
