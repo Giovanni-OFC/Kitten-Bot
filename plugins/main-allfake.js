@@ -113,7 +113,6 @@ global.icono = [
 'https://qu.ax/sTvd.jpg',
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363315614329082@newsletter
-  ", serverMessageId: 100, newsletterName: '𝐀𝐧𝐲𝐞𝐥𝐢𝐭𝐚-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍', }, externalAdReply: { showAdAttribution: true, title: packname, body: '🩷 ¡Anyelita Super Bot!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363315614329082@newsletter", serverMessageId: 100, newsletterName: '𝐀𝐧𝐲𝐞𝐥𝐢𝐭𝐚-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍', }, externalAdReply: { showAdAttribution: true, title: packname, body: '🩷 ¡Anyelita Super Bot!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
