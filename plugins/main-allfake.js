@@ -106,11 +106,11 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [ 
-'https://qu.ax/fwKv.jpg',
-'https://qu.ax/feut.jpg',
-'https://qu.ax/utMX.jpg',
-'https://qu.ax/fwKv.jpg',
-'https://qu.ax/sTvd.jpg',
+'https://qu.ax/ZlNo.jpg',
+'https://qu.ax/ZlNo.jpg',
+'https://qu.ax/ZlNo.jpg',
+'https://qu.ax/ZlNo.jpg',
+'https://qu.ax/ZlNo.jpg',
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363315614329082@newsletter", serverMessageId: 100, newsletterName: '𝐀𝐧𝐲𝐞𝐥𝐢𝐭𝐚-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍', }, externalAdReply: { showAdAttribution: true, title: packname, body: '🩷 ¡Anyelita Super Bot!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
