@@ -344,7 +344,7 @@ global.rpgshop = { // Tienda
     string = string.toLowerCase();
     const emottt = {
       exp: '⚡ Experiencia',
-      corazones: '🤍 Corazon',
+      corazones: '🩷 Corazon',
       diamond: '💎 Diamante',
       joincount: '💰 Token',
       emerald: '💚 Esmeralda',
@@ -421,7 +421,7 @@ global.rpgshopp = { // Tienda
     string = string.toLowerCase();
     const emotttt = {
       exp: '⚡',
-      corazones: '🤍',
+      corazones: '🩷',
       diamond: '💎+',
       joincount: '💰',
       emerald: '💚',
