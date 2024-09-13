@@ -7,7 +7,7 @@ let chat = global.db.data.chats[m.chat]
 let bot = global.db.data.settings[conn.user.jid] || {}
 if (isBotAdmin && chat.antiperu && !isAdmin && !isOwner && !isROwner) {
 //if (!db.data.chats[m.chat].antiperu && m.isGroup) throw 0
-let texto = `ESTE NÚMERO *@${m.sender.split`@`[0]}* ES UN PALOMERO\nADIOS AQUI NO COMEMOS PALOMA 🤍`
+let texto = `ESTE NÚMERO *@${m.sender.split`@`[0]}* ES UN PALOMERO\nADIOS AQUI NO COMEMOS PALOMA 🩷`
 
 if (m.sender.startsWith('51' || '51')) {
 await conn.reply(m.chat, texto, fkontak,  m)
