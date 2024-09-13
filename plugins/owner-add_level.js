@@ -15,7 +15,7 @@ const handler = async (m, {conn, text}) => {
   if (limit < 1) throw '*el número mínimo de niveles a agregar es 1 🆙*';
   const users = global.db.data.users;
   users[who].level += dmt;
-  m.reply(`*🤍 𝐀𝐆𝐑𝐄𝐆𝐀𝐃𝐎*
+  m.reply(`*🩷 𝐀𝐆𝐑𝐄𝐆𝐀𝐃𝐎*
 
 𝐓𝐨𝐭𝐚𝐥: ${dmt} 🆙
 𝐅𝐞𝐜𝐡𝐚: ${fecha} 📆`);
