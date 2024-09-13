@@ -3,12 +3,12 @@ const handler = async (m, { conn, usedPrefix, args, command }) => {
 try {
 const text = args.length >= 1 ? args.slice(0).join(" ") : (m.quoted && m.quoted?.text || m.quoted?.caption || m.quoted?.description) || null
 
-if (!text) return conn.reply(m.chat, `🤍 *Escriba el título de algún vídeo de Youtube*\n\nEjemplo, ${usedPrefix + command} Génesis AI`, m, rcanal, )
+if (!text) return conn.reply(m.chat, `🩷 *Escriba el título de algún vídeo de Youtube*\n\nEjemplo, ${usedPrefix + command} Génesis AI`, m, rcanal, )
 
 const { all: [bestItem, ...moreItems] } = await ytSearch(text)
 const videoItems = moreItems.filter(item => item.type === 'video')
 const formattedData = {
-title: `\`[ YOUTUBE - SEARCH ]\`\n\n> 🤍 *\`Titulo :\`* ${bestItem.title}\n> 🤍 *\`Duración :\`* ${bestItem.timestamp}\n> 🤍 *\`Visitas :\`* ${bestItem.views}\n> 🤍 *\`Subido :\`* ${bestItem.ago}\n> 🤍 *\`Url :\`* ${bestItem.url}`,
+title: `\`[ YOUTUBE - SEARCH ]\`\n\n> 🩷 *\`Titulo :\`* ${bestItem.title}\n> 🩷 *\`Duración :\`* ${bestItem.timestamp}\n> 🩷 *\`Visitas :\`* ${bestItem.views}\n> 🩷 *\`Subido :\`* ${bestItem.ago}\n> 🩷 *\`Url :\`* ${bestItem.url}`,
 rows: [{
 title: "Vídeo más Popular 😼",
 highlight_label: "Popular",
@@ -19,7 +19,7 @@ title: bestItem.title,
 description: ""
 }]
 }, {
-title: "Videos Encontrados 🤍",
+title: "Videos Encontrados 🩷",
 rows: videoItems.map(({
 title,
 url,
