@@ -996,11 +996,3 @@ global.rpgshopp = { // Tienda
     if (!results.length) return '';
     else return emotttt[results[0][0]];
   }};
-
-const file = fileURLToPath(import.meta.url);
-watchFile(file, () => {
-  unwatchFile(file);
-  console.log(chalk.redBright('Update \'config.js\''));
-  import(`${file}?update=${Date.now()}`);
-});
-https://chat.whatsapp.com/Dv84JSU6KNNB1LBrgljRfz
