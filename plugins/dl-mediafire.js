@@ -2,8 +2,8 @@ import axios from "axios";
 import cheerio from "cheerio";
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-if (!args[0]) return conn.reply(m.chat, '🤍 Ingrese el enlace de un archivo de Mediafire.', m, rcanal)
-if (!args[0].match(/mediafire/gi)) return conn.reply(m.chat, '🤍 El enlace deve ser de un archivo de Mediafire.', m, rcanal)
+if (!args[0]) return conn.reply(m.chat, '🩷 Ingrese el enlace de un archivo de Mediafire.', m, rcanal)
+if (!args[0].match(/mediafire/gi)) return conn.reply(m.chat, '🩷 El enlace deve ser de un archivo de Mediafire.', m, rcanal)
 	const { title, size, type, url } = await mediafire(args[0]);
 	await conn.sendFile(m.chat, url, title, `- *Nombre:* ${title}\n- *Tamaño:* ${size}\n- *Type:* ${type}`, m, false, { mimetype: type, asDocument: true });
 }
