@@ -117,7 +117,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 id: `${usedPrefix}redes`,
             },
             {
-                header: "𝗚𝗥𝗨𝗣𝗢𝗦 𝗠𝗮𝘅-𝗕𝗼𝘁 ☁️",
+                header: "𝗚𝗥𝗨𝗣𝗢𝗦 𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮-𝗕𝗼𝘁 ☁️",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘭𝘰𝘴 𝘨𝘳𝘶𝘱𝘰𝘴 𝘥𝘦𝘭 𝘣𝘰𝘵`,
                 id: `${usedPrefix}grupos`,
