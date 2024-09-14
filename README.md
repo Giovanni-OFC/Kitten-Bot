@@ -77,6 +77,10 @@
 
 ---------------------
 
+### ☁️ AGRADECIMIENTOS
+<a
+href="https://github.com/Angelito-OFC"><img src="https://github.com/Angelito-OFC.png" width="130" height="130" alt="Angelito-OFC"/></a>
+
 ### 👑 CREADOR 
 <a
 href="https://github.com/Giovanni-OFC"><img src="https://github.com/Giovanni-OFC.png" width="130" height="130" alt="Giovanni"/></a>
