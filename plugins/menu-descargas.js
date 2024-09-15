@@ -8,7 +8,7 @@ import fetch from 'node-fetch'
 const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
 
 const defaultMenu = {
-  before: `“𝐇𝐨𝐥𝐚 *%name* 𝐒𝐨𝐲 𝐆𝐞𝐧𝐞𝐬𝐢𝐬𝐁𝐨𝐭, 𝐓𝐞𝐧 𝐮𝐧 𝐛𝐮𝐞𝐧 𝐝𝐢𝐚"
+  before: `“𝐇𝐨𝐥𝐚 *%name* 𝐒𝐨𝐲 𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮𝐁𝐨𝐭, 𝐓𝐞𝐧 𝐮𝐧 𝐛𝐮𝐞𝐧 𝐝𝐢𝐚"
 
 ♡ ▬▭▬▭▬ ●𖤍● ▬▭▬▭▬ ♡ 
 
@@ -33,7 +33,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
 'dl': '𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒',
 }
-let img = 'https://i.ibb.co/ZWrFXrh/file.jpg'
+let img = 'https://qu.ax/ZlNo.jpg'
 
   try {
           // DEFAULT MENU
