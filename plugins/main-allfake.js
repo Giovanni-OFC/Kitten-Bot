@@ -63,7 +63,7 @@ global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'  
+var canal = 'https://whatsapp.com/channel/0029VajfR79JENyA3ELFHf3o'  
 var git = 'https://github.com/Giovanni-OFC' 
 var github = 'https://github.com/Giovanni-OFC/Anyelita-Bot' 
 var instagram = 'https://www.instagram.com/dzn._anyelita?igsh=MWcwZnN5MTBlNXVqNg==' 
