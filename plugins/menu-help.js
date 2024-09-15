@@ -61,7 +61,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     txt += '`亗ः𖤍⠿❥ 𝑽𝑬𝑹𝑰𝑭𝑰𝑪𝑨𝑫𝑶𝑺 :`' + ` ${rtotalreg}\n`;
     txt += '`亗ः𖤍⠿❥ 𝑨𝑪𝑻𝑰𝑽𝑶 :`' + ` ${uptime}\n`;
     txt += '`亗ः𖤍⠿❥ 𝑪𝑹𝑬𝑨𝑫𝑶𝑹 :` #owner\n';
-    txt += "᳝꩖͜͡•꙰──────▧⃟╳⃟ೇ─────𖡜ꦽ̸ོ˚￫ ݈݇─";
+    txt += "᳝꩖͜͡•꙰──────▧⃟𖤍─────♡ꦽ̸ོ˚￫ ݈݇─";
 
     let listSections = [];
 
