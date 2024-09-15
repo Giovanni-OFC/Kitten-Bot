@@ -85,6 +85,6 @@ href="https://github.com/Angelito-OFC"><img src="https://github.com/Angelito-OFC
 <a
 href="https://github.com/Giovanni-OFC"><img src="https://github.com/Giovanni-OFC.png" width="130" height="130" alt="Giovanni"/></a>
 
-> Copyright (c) 2024 **[Giovanni-OFC](https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y)**.
+> Copyright (c) 2024 **[Giovanni-OFC](https://whatsapp.com/channel/0029VajfR79JENyA3ELFHf3o)**.
 
 **`¡GRACIAS POR PREFERIRNOS!` ☕**
