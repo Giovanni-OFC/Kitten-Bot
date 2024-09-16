@@ -32,7 +32,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/ZlNo.jpg')
 
 //creador y otros
-global.creador = 'Wa.me/50242073893'
+global.creador = 'Wa.me/:51902855352'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/50242073893'
 global.namechannel = '✯ 𝐀𝐧𝐲𝐞𝐥𝐢𝐭𝐚 - 𝐁𝐨𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✯'
