@@ -106,11 +106,11 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [ 
-'https://f.uguu.se/AVdSjfkk.jpg',
-'https://f.uguu.se/AVdSjfkk.jpg',
-'https://f.uguu.se/AVdSjfkk.jpg',
-'https://f.uguu.se/AVdSjfkk.jpg',
-'https://f.uguu.se/AVdSjfkk.jpg',
+'https://i.ibb.co/vPyGy8F/file.jpg',
+'https://i.ibb.co/vPyGy8F/file.jpg',
+'https://i.ibb.co/vPyGy8F/file.jpg',
+'https://i.ibb.co/vPyGy8F/file.jpg',
+'https://i.ibb.co/vPyGy8F/file.jpg',
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363315614329082@newsletter", serverMessageId: 100, newsletterName: '𝑲𝒊𝒕𝒕𝒆𝒏-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍', }, externalAdReply: { showAdAttribution: true, title: packname, body: '🌸 ¡Anyelita Super Bot!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
