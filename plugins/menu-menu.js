@@ -91,7 +91,7 @@ const defaultMenu = {
   footer: 'li.┗━━━━━°♤•♧°🌹°♧•♤°━━━━━┛.il\n\n',
   after: ``,
 }
-let ppp = 'https://f.uguu.se/AVdSjfkk.jpg'
+let ppp = 'https://i.ibb.co/vPyGy8F/file.jpg'
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
     let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
@@ -206,7 +206,7 @@ await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 
 
 // await conn.reply(m.chat, '🍟 Enviando el menú.....', m, rcanal)
 
-await conn.sendFile(m.chat, "https://f.uguu.se/AVdSjfkk.jpg", 'menu.jpg', Styles(text.trim()), fakegif3, null, fake)
+await conn.sendFile(m.chat, "https://i.ibb.co/vPyGy8F/file.jpg", 'menu.jpg', Styles(text.trim()), fakegif3, null, fake)
 
   } catch (e) {
     conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, rcanal, )
