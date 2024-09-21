@@ -65,7 +65,7 @@ global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VajfR79JENyA3ELFHf3o'  
 var git = 'https://github.com/Giovanni-OFC' 
-var github = 'https://github.com/Giovanni-OFC/Anyelita-Bot' 
+var github = 'https://github.com/Giovanni-OFC/kitten-Bot' 
 var instagram = 'https://www.instagram.com/dzn._anyelita?igsh=MWcwZnN5MTBlNXVqNg==' 
 
 global.redes = [canal, git, github, instagram].getRandom()
