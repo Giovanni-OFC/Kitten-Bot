@@ -16,9 +16,9 @@
 
 
 <a href="https://api.whatsapp.com/send/?phone=+51930860196&text=Hola 👋 soporte de Anyelita Bot &type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
- <a href="http://www.instagram.com/dzn._anyelita" target="blank"><img src="https://img.shields.io/badge/Instagram-30302f?style=flat&logo=instagram" /></a>
-<a href="https://www.threads.net/@dzn._anyelita" target="blank"><img src="https://img.shields.io/badge/Threads-30302f?style=flat&logo=threads" /></a>
-<a href="https://x.com/usxr_angelito0" target="blank"><img src="https://www.instagram.com/dzn._anyelita?igsh=MWcwZnN5MTBlNXVqNg==" /></a>
+ <a href="http://www.instagram.com/shizuku_ff" target="blank"><img src="https://img.shields.io/badge/Instagram-30302f?style=flat&logo=instagram" /></a>
+<a href="https://www.threads.net/@shizuku_ff" target="blank"><img src="https://img.shields.io/badge/Threads-30302f?style=flat&logo=threads" /></a>
+<a href="https://x.com/giovanni_.ofc" target="blank"><img src="https://www.instagram.com/shizuku_ff?igsh=MWcwZnN5MTBlNXVqNg==" /></a>
 
 > [!NOTE]
 > **Este Bot recibe soporte 24/7 diariamente si presenta fallos solo repórtelo para que lo solucionemos**
@@ -32,7 +32,7 @@
 
 > Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
 
-[![Click Aquí](https://img.shields.io/badge/Grupo-Anyelita-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/FRaCmDsytYK51718DArQ1H)
+[![Click Aquí](https://img.shields.io/badge/Grupo-Kitten-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/FRaCmDsytYK51718DArQ1H)
 
 
 ### **`☁️ CORINPLUS HOTS`**
