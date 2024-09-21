@@ -2,6 +2,7 @@ import { promises } from 'fs'
 import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
+import axios from 'axios';
 
 let Styles = (text, style = 1) => {
   var xStr = 'abcdefghijklmnopqrstuvwxyz1234567890'.split('');
@@ -23,75 +24,53 @@ let Styles = (text, style = 1) => {
 };
 
 let tags = {
-  'main': '𝐈𝐍𝐅𝐎 𝐁𝐎𝐓',
-  'buscador': '𝐁𝐔𝐒𝐐𝐔𝐄𝐃𝐀𝐒',
-  'search': '𝐒𝐄𝐀𝐑𝐂𝐇',
-  'game': '𝐃𝐈𝐕𝐄𝐑𝐒𝐈𝐎𝐍',
-  'jadibot': '𝐒𝐔𝐁 𝐁𝐎𝐓𝐒',
-  'rpg': '𝐑𝐏𝐆',
-  'rg': '𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎',
-  'xp': '𝐄𝐗𝐏',
-  'sticker': '𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐒',
-  'anime': '𝐀𝐍𝐈𝐌𝐄𝐒',
-  'database': '𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄',
-  'fix': '𝐅𝐈𝐗𝐌𝐒𝐆𝐄𝐒𝐏𝐄𝐑𝐀',
-  'grupo': '𝐆𝐑𝐔𝐏𝐎𝐒',
-  'nable': '𝐎𝐍 / 𝐎𝐅𝐅', 
-  'dl': '𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒',
-  'fun': '𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒',
-  'info': '𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍',
-  'nsfw': '𝐍𝐒𝐅𝐖', 
-  'owner': '𝐂𝐑𝐄𝐀𝐃𝐎𝐑',
-  'mods': '𝐒𝐓𝐀𝐅𝐅',
-  'audio': '𝐀𝐔𝐃𝐈𝐎𝐒', 
-  'ai': '𝐀𝐈 𝐁𝐎𝐓',
-  'convertir': '𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒',
-  'audios': '𝐀𝐔𝐃𝐈𝐎𝐒',
+  'main': 'ɪɴꜰᴏ ʙᴏᴛ',
+  'buscador': 'ʙᴜꜱQᴜᴇᴅᴀꜱ',
+  'search': 'ꜱᴇᴀʀᴄʜ',
+  'game': 'ᴅɪᴠᴇʀꜱɪᴏɴ',
+  'jadibot': 'ꜱᴜʙ ʙᴏᴛꜱ',
+  'rpg': 'ʀᴘɢ',
+  'rg': 'ʀᴇɢɪꜱᴛʀᴏ',
+  'xp': 'ᴇxᴘ',
+  'sticker': 'ꜱᴛɪᴄᴋᴇʀꜱ',
+  'anime': 'ᴀɴɪᴍᴇꜱ',
+  'database': 'ᴅᴀᴛᴀʙᴀꜱᴇ',
+  'fix': 'ꜰɪxᴍꜱɢᴇꜱᴘᴇʀᴀ',
+  'grupo': 'ɢʀᴜᴘᴏꜱ',
+  'nable': 'ᴏɴ / ᴏꜰꜰ', 
+  'dl': 'ᴅᴇꜱᴄᴀʀɢᴀꜱ',
+  'fun': 'ʜᴇʀʀᴀᴍɪᴇɴᴛᴀꜱ',
+  'info': 'ɪɴꜰᴏʀᴍᴀᴄɪᴏɴ',
+  'nsfw': 'ɴꜱꜰᴡ', 
+  'owner': 'ᴄʀᴇᴀᴅᴏʀ',
+  'mods': 'ꜱᴛᴀꜰꜰ',
+  'audio': 'ᴀᴜᴅɪᴏꜱ', 
+  'ai': 'ᴀɪ ʙᴏᴛ',
+  'convertir': 'ᴄᴏɴᴠᴇʀᴛɪᴅᴏʀᴇꜱ',
+  'audios': 'ᴀᴜᴅɪᴏꜱ',
 }
 
 const defaultMenu = {
-  before: `
-*︵̩̥̩̥̩̥̩̥̩̥̩̥.ֹ̥︵̩̥̩̥̩̥̩⏜⌣𓆩♥️𓆪⌣⏜︵̩̥̩̥̩̥̩̥⌣ֹ̥*
- *╔═𓆗═ͭ═ͪ═ͤ═✧☠️✧═ͨ═ᷞ═ͣ═ᷠ𓆗═╗*
-> `+'_*`'+`⁖ฺ۟̇࣪·֗٬̤⃟🌹hola %name, %greeting 𖠵ฺ໋۟݊`+'`*_'+`
-*╚═𓆗════✧🧧✧════𓆗═╝*
-꒷︶꒷꒥꒷‧₊˚꒷︶꒷꒥꒷‧₊˚꒷︶꒷꒥꒷‧₊˚꒷︶꒷
-  ╵︳╵︳╵│︱╵︳│╵│︳╵╵︳
-       .•*•.•*•.•*•.•*•.•*•.•*•.•*•.
-       `+'_*`𖤍 𝐀 𝐍 𝐘 𝐄 𝐋 𝐈 𝐓 𖤍`*_ '+`
-        •*•.•*•.•*•.•*•.•*•.•*•.•*•.
-        
-.・。.・゜✭・🐼・✫・゜・。.
-𓍢ִ:𓂃⊹ *🄽🄾🄼🄱🅁🄴* :  ִֶָ🥀𓍢ִ໋ 
-⭒─ׅ─ׂ─ׅ─ׂ─ׂ ⋆ ✧ ⋆ ─ׅ─ׂ─ׅ─ׂ─ׂ⭒
-> %name
-𓍢ִ:𓂃⊹ *🄱🄾🅃* :  ִֶָ🥀𓍢ִ໋ 
-> Anyelita Bot
-⭒─ׅ─ׂ─ׅ─ׂ─ׂ ⋆ ✧ ⋆ ─ׅ─ׂ─ׅ─ׂ─ׂ⭒
-𓍢ִ:𓂃⊹ *🄼🄾🄳🄾* :  ִֶָ🥀𓍢ִ໋ 
-> Público
-⭒─ׅ─ׂ─ׅ─ׂ─ׂ ⋆ ✧ ⋆ ─ׅ─ׂ─ׅ─ׂ─ׂ⭒
-𓍢ִ:𓂃⊹ *🅁🅄🅃🄸🄽🄰* :  ִֶָ🥀𓍢ִ໋ 
-> %muptime
-⭒─ׅ─ׂ─ׅ─ׂ─ׂ ⋆ ✧ ⋆ ─ׅ─ׂ─ׅ─ׂ─ׂ⭒
-𓍢ִ:𓂃⊹ *🅄🅂🄴🅁🅂* :  ִֶָ🥀𓍢ִ໋ 
-> %totalreg
-⭒─ׅ─ׂ─ׅ─ׂ─ׂ ⋆ ✧ ⋆ ─ׅ─ׂ─ׅ─ׂ─ׂ⭒
-𓍢ִ:𓂃⊹ *🄲🄾🅁🄰🅉🄾🄽🄴🅂* :  ִֶָ🥀𓍢ִ໋ 
-> %corazones
-⭒─ׅ─ׂ─ׅ─ׂ─ׂ ⋆ ✧ ⋆ ─ׅ─ׂ─ׅ─ׂ─ׂ⭒
-𓍢ִ:𓂃⊹ *🄽🄸🅅🄴🄻* :  ִֶָ🥀𓍢ִ໋ 
-> %level 
-✿°•∘ɷ∘•°✿ ... ✿°•∘ɷ∘•°✿.
+  before: `Hola \`%name\` soy GenesisBot-MD, %greeting
 
-✦•····················•✦•···················•✦
+乂 _\`ᴜ\` \`ꜱ\` \`ᴜ\` \`ᴀ\` \`ʀ\` \`ɪ\` \`ᴏ\`_ 乂
+
+• _\`ɴᴏᴍʙʀᴇ\`_ :: %name
+• _\`ʙᴏᴛ\`_ :: GenesisBot-MD
+• _\`ᴍᴏᴅᴏ\`_ :: Público
+• _\`ᴀᴄᴛɪᴠᴏ\`_ :: %muptime
+• _\`ᴜꜱᴜᴀʀɪᴏꜱ\`_ :: %totalreg
+• _\`ᴄᴏʀᴀᴢᴏɴᴇꜱ\`_ :: %corazones
+• _\`ɴɪᴠᴇʟ\`_ :: %level
+
+乂 _\`ᴄ\` \`ᴏ\` \`ᴍ\` \`ᴀ\` \`ɴ\` \`ᴅ\` \`ᴏ\` \`ꜱ\`_ 乂
 `.trimStart(),
-  header: 'li.╔╦══••✠•❀🌹❀•✠••══╦╗.il\n> ○⵿ͦꦽ͚┈➤̽ `%category`\nli.╚╩══••✠•❀🌹❀•✠••══╩╝.il\n▄︻🧧┻┳═ 🌹●○•♦️°♦️•○● 🌹═┳┻🧧︻▄',
-  body: '> _*`🎀⃟᷼ᮬᩙ⃪➤ %cmd %isdiamond %isPremium`*_\n',
-  footer: 'li.┗━━━━━°♤•♧°🌹°♧•♤°━━━━━┛.il\n\n',
-  after: ``,
+  header: '╭• •꒰─• *`%category`* ·ٜ۬･',
+  body: '│ %cmd\n',
+  footer: '╰• •───• •───• •───•\n',
+  after: `> BY GENESISBOT-MD X Angel-OFC`,
 }
-let ppp = 'https://qu.ax/ZlNo.jpg'
+let ppp = 'https://i.ibb.co/274wWbK/file.jpg'
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
     let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
@@ -189,7 +168,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
-const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/ZlNo.jpg')
+const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
   let category = "video"
   const db = './media/database/db.json'
@@ -199,14 +178,17 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/
   global.vid = rlink
   const response = await fetch(vid)
   const gif = await response.buffer()
- // const img = { url: "https://qu.ax/ZlNo.jpg"} 
+ // const img = imagen1
 
-await m.react('🩷') 
-await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲 𝗹𝗮 𝗕𝗼𝘁...𓏲੭*', fakegif3, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '🩷 ¡Anyelita la mejor Bot!', sourceUrl: "https://wa.me/0", thumbnail: icons }}})
+await m.react('🤍') 
+// await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲 𝗹𝗮 𝗕𝗼𝘁...𓏲੭*', fakegif3, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '🤍 ¡Génesis la mejor Bot!', sourceUrl: canal, thumbnail: icons }}})
 
 // await conn.reply(m.chat, '🍟 Enviando el menú.....', m, rcanal)
+let imagen_menu = await getBuffer(ppp);
+await conn.sendFile(m.chat, imagen_menu, 'menu.jpg', Styles(text.trim()), fakegif3, null, fake)
 
-await conn.sendFile(m.chat, "https://qu.ax/ZlNo.jpg", 'menu.jpg', Styles(text.trim()), fakegif3, null, fake)
+/* await conn.sendButton(m.chat, text, '@usxr_angelito0', ppp, [
+['', '']], null, [['CANAL 🐈‍⬛', `${canal}`], ['CANAL 2', `wa.me/59168683798`]], m) */
 
   } catch (e) {
     conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, rcanal, )
@@ -215,7 +197,7 @@ await conn.sendFile(m.chat, "https://qu.ax/ZlNo.jpg", 'menu.jpg', Styles(text.tr
 }
 handler.help = ['menucompleto']
 handler.tags = ['main']
-handler.command = ['menucompleto', 'allmenú', 'allmenu'] 
+handler.command = ['menuall', 'allmenú', 'allmenu'] 
 handler.register = true
 
 export default handler
@@ -233,29 +215,47 @@ function clockString(ms) {
   var ase = new Date();
   var hour = ase.getHours();
 switch(hour){
-  case 0: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐧𝐨𝐜𝐡𝐞𝐬 🌙'; break;
-  case 1: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐧𝐨𝐜𝐡𝐞𝐬 💤'; break;
-  case 2: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐧𝐨𝐜𝐡𝐞𝐬 🦉'; break;
-  case 3: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐝𝐢𝐚𝐬 ✨'; break;
-  case 4: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐝𝐢𝐚𝐬 💫'; break;
-  case 5: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐝𝐢𝐚𝐬 🌅'; break;
-  case 6: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐝𝐢𝐚𝐬 🌄'; break;
-  case 7: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐝𝐢𝐚𝐬 🌅'; break;
-  case 8: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐝𝐢𝐚𝐬 💫'; break;
-  case 9: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐝𝐢𝐚𝐬 ✨'; break;
-  case 10: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐝𝐢𝐚𝐬 🌞'; break;
-  case 11: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐝𝐢𝐚𝐬 🌨'; break;
-  case 12: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐝𝐢𝐚𝐬 ❄'; break;
-  case 13: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐝𝐢𝐚𝐬 🌤'; break;
-  case 14: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐭𝐚𝐫𝐝𝐞𝐬 🌇'; break;
-  case 15: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐭𝐚𝐫𝐝𝐞𝐬 🥀'; break;
-  case 16: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐭𝐚𝐫𝐝𝐞𝐬 🌹'; break;
-  case 17: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐭𝐚𝐫𝐝𝐞𝐬 🌆'; break;
-  case 18: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐧𝐨𝐜𝐡𝐞𝐬 🌙'; break;
-  case 19: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐧𝐨𝐜𝐡𝐞𝐬 🌃'; break;
-  case 20: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐧𝐨𝐜𝐡𝐞𝐬 🌌'; break;
-  case 21: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐧𝐨𝐜𝐡𝐞𝐬 🌃'; break;
-  case 22: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐧𝐨𝐜𝐡𝐞𝐬 🌙'; break;
-  case 23: hour = '𝐁𝐮𝐞𝐧𝐚𝐬 𝐧𝐨𝐜𝐡𝐞𝐬 🌃'; break;
+  case 0: hour = 'Buenas noches 🌙'; break;
+  case 1: hour = 'Buenas noches 💤'; break;
+  case 2: hour = 'Buenas noches 🦉'; break;
+  case 3: hour = 'Buenas noches ✨'; break;
+  case 4: hour = 'Buenos dias 💫'; break;
+  case 5: hour = 'Buenos dias 🌅'; break;
+  case 6: hour = 'Buenos dias 🌄'; break;
+  case 7: hour = 'Buenos dias 🌅'; break;
+  case 8: hour = 'Buenos dias 💫'; break;
+  case 9: hour = 'Buenos dias ✨'; break;
+  case 10: hour = 'Buenos dias 🌞'; break;
+  case 11: hour = 'Buenos dias 🌨'; break;
+  case 12: hour = 'Buenos dias ❄'; break;
+  case 13: hour = 'Buenos dias 🌤'; break;
+  case 14: hour = 'Buenas tardes 🌇'; break;
+  case 15: hour = 'Buenas tardes 🥀'; break;
+  case 16: hour = 'Buenas tardes 🌹'; break;
+  case 17: hour = 'Buenas tardes 🌆'; break;
+  case 18: hour = 'Buenas noches 🌙'; break;
+  case 19: hour = 'Buenas noches 🌃'; break;
+  case 20: hour = 'Buenas noches 🌌'; break;
+  case 21: hour = 'Buenas noches 🌃'; break;
+  case 22: hour = 'Buenas noches 🌙'; break;
+  case 23: hour = 'Buenas noches 🌃'; break;
 }
   var greeting = hour;
+
+/*const getBuffer = async (url, options) => {
+try {
+const res = await axios({
+method: 'get',
+url,
+headers: {
+'DNT': 1,
+'Upgrade-Insecure-Request': 1,
+},
+...options,
+responseType: 'arraybuffer',
+});
+return res.data;
+} catch (e) {
+console.log(`Error : ${e}`);
+}
+};*/
