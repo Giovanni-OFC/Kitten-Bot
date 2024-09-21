@@ -58,7 +58,7 @@ const defaultMenu = {
 ꒷︶꒷꒥꒷‧₊˚꒷︶꒷꒥꒷‧₊˚꒷︶꒷꒥꒷‧₊˚꒷︶꒷
   ╵︳╵︳╵│︱╵︳│╵│︳╵╵︳
        .•*•.•*•.•*•.•*•.•*•.•*•.•*•.
-       `+'_*`𖤍 𝐊 𝐈 𝐓 𝐓 𝐄 𝐍 𝐍 𖤍`*_ '+`
+       `+'_*`𖤍 𝐀 𝐍 𝐘 𝐄 𝐋 𝐈 𝐓 𖤍`*_ '+`
         •*•.•*•.•*•.•*•.•*•.•*•.•*•.
         
 .・。.・゜✭・🐼・✫・゜・。.
@@ -66,7 +66,7 @@ const defaultMenu = {
 ⭒─ׅ─ׂ─ׅ─ׂ─ׂ ⋆ ✧ ⋆ ─ׅ─ׂ─ׅ─ׂ─ׂ⭒
 > %name
 𓍢ִ:𓂃⊹ *🄱🄾🅃* :  ִֶָ🥀𓍢ִ໋ 
-> Kitten Bot
+> Anyelita Bot
 ⭒─ׅ─ׂ─ׅ─ׂ─ׂ ⋆ ✧ ⋆ ─ׅ─ׂ─ׅ─ׂ─ׂ⭒
 𓍢ִ:𓂃⊹ *🄼🄾🄳🄾* :  ִֶָ🥀𓍢ִ໋ 
 > Público
@@ -91,7 +91,7 @@ const defaultMenu = {
   footer: 'li.┗━━━━━°♤•♧°🌹°♧•♤°━━━━━┛.il\n\n',
   after: ``,
 }
-let ppp = 'https://i.ibb.co/vPyGy8F/file.jpg'
+let ppp = 'https://qu.ax/ZlNo.jpg'
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
     let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
@@ -189,7 +189,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
-const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://i.ibb.co/vPyGy8F/file.jpg')
+const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/ZlNo.jpg')
 
   let category = "video"
   const db = './media/database/db.json'
@@ -199,14 +199,14 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://i.ibb.
   global.vid = rlink
   const response = await fetch(vid)
   const gif = await response.buffer()
- // const img = { url: "https://i.ibb.co/vPyGy8F/file.jpg"} 
+ // const img = { url: "https://qu.ax/ZlNo.jpg"} 
 
-await m.react('🌸') 
-await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲 𝗹𝗮 𝗕𝗼𝘁...𓏲੭*', fakegif3, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '🌸 ¡Anyelita la mejor Bot!', sourceUrl: "https://wa.me/0", thumbnail: icons }}})
+await m.react('🩷') 
+await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲 𝗹𝗮 𝗕𝗼𝘁...𓏲੭*', fakegif3, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '🩷 ¡Anyelita la mejor Bot!', sourceUrl: "https://wa.me/0", thumbnail: icons }}})
 
 // await conn.reply(m.chat, '🍟 Enviando el menú.....', m, rcanal)
 
-await conn.sendFile(m.chat, "https://i.ibb.co/vPyGy8F/file.jpg", 'menu.jpg', Styles(text.trim()), fakegif3, null, fake)
+await conn.sendFile(m.chat, "https://qu.ax/ZlNo.jpg", 'menu.jpg', Styles(text.trim()), fakegif3, null, fake)
 
   } catch (e) {
     conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, rcanal, )
