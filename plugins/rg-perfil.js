@@ -2,7 +2,7 @@ import PhoneNumber from 'awesome-phonenumber'
 import fetch from 'node-fetch'
 var handler = async (m, { conn }) => {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let pp = 'https://qu.ax/ZlNo.jpg'
+let pp = 'https://f.uguu.se/AVdSjfkk.jpg'
 let { premium, level, corazones, exp, lastclaim, registered, regTime, age, role } = global.db.data.users[m.sender]
 let username = conn.getName(who)
 let noprem = `
