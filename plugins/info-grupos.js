@@ -27,7 +27,7 @@ let estado = `᥀·࣭࣪̇˖🌸◗ 𝘊𝘈𝘕𝘈𝘓:
 ᥀·࣭࣪̇˖🌸◗ 𝘕𝘚𝘍𝘞 Genesis+18:
 • ${bgp4}
 `
-await conn.sendButton(m.chat, estado, '@dzn._anyelita', pp, [
+await conn.sendButton(m.chat, estado, '@shizuku_ff', pp, [
 ['DUEÑO 🌸', '.owner'], ['DONAR 🫧', '.donate']], null, [['CANAL 🐈‍⬛', `${canal}`]], m)
 }
 handler.help = ['grupos']
