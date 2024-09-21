@@ -15,7 +15,7 @@
 
 
 
-<a href="https://api.whatsapp.com/send/?phone=+51930860196&text=Hola 👋 soporte de Anyelita Bot &type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
+<a href="https://api.whatsapp.com/send/?phone=++51902855352https://www.instagram.com/shizuku_ff&text=Hola 👋 soporte de Anyelita Bot &type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
  <a href="http://www.instagram.com/shizuku_ff" target="blank"><img src="https://img.shields.io/badge/Instagram-30302f?style=flat&logo=instagram" /></a>
 <a href="https://www.threads.net/@shizuku_ff" target="blank"><img src="https://img.shields.io/badge/Threads-30302f?style=flat&logo=threads" /></a>
 <a href="https://x.com/giovanni_.ofc" target="blank"><img src="https://www.instagram.com/shizuku_ff?igsh=MWcwZnN5MTBlNXVqNg==" /></a>
