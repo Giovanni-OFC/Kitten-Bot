@@ -1,13 +1,13 @@
 > 🐈‍⬛ Versión Actual: 1.4.0
 
-## 🎀 **`A N Y E L I T A - B O T`**
+## 🎀 **`K I T T E N - B O T`**
 
-![Anyelita](https://qu.ax/ZlNo.jpg)
+![Anyelita](https://f.uguu.se/AVdSjfkk.jpg)
 <div align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Oswald&weight=300&size=37&duration=3000&pause=100&color=000000&background=601D6E00&center=true&vCenter=true&repeat=true&random=FALSO&width=660&height=90&lines=Giovanni-OFC+lanzó;Nueva+versión+Anyelita Bot - 1.4.0;BY:+SPORT+TEAM+y+Giovanni-OFC." alt="Typing SVG"/></a>
 </div>
 
-#### Creador: Giovanni 🫅
+#### Creador: Giovanni-OFC 🫅
 #### Realizado con: SPORT TEAM 🐈‍
 
 ### CONTACTOS 💻
