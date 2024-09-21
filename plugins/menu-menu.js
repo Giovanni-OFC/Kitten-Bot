@@ -199,7 +199,7 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://i.ibb.
   global.vid = rlink
   const response = await fetch(vid)
   const gif = await response.buffer()
- // const img = { url: "https://f.uguu.se/AVdSjfkk.jpg"} 
+ // const img = { url: "https://i.ibb.co/vPyGy8F/file.jpg"} 
 
 await m.react('🌸') 
 await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲 𝗹𝗮 𝗕𝗼𝘁...𓏲੭*', fakegif3, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '🌸 ¡Anyelita la mejor Bot!', sourceUrl: "https://wa.me/0", thumbnail: icons }}})
