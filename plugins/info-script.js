@@ -1,6 +1,6 @@
 
 let handler = async (m, { conn, command, usedPrefix }) => {
-let pp = 'https://f.uguu.se/AVdSjfkk.jpg'
+let pp = 'https://i.ibb.co/vPyGy8F/file.jpg'
 m.react('🌸')
 let name = await conn.getName(m.sender)
 let _uptime = process.uptime() * 1000
@@ -13,7 +13,7 @@ let estado = `\`乂 S C R I P T  -  B O T\`
 
 > 😼 *Te gusta nuestro Bot te invito a dejarnos una estrella a nuestro repositorio para seguir mejorando nuestro Bot* ☕
 `
-await conn.sendButton(m.chat, estado, '@usxr_angelito0', pp, [
+await conn.sendButton(m.chat, estado, '@giovanni_.ofc', pp, [
 ['DUEÑO 🌸', '.owner']], null, [['GIT HUB 🌸', `https://github.com/Giovanni-OFC/Kitten-Bot`]], m)
 }
 handler.help = ['script']
