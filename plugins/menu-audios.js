@@ -32,7 +32,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
 'audios': '𝐀𝐔𝐃𝐈𝐎𝐒',
 }
-let img = 'https://f.uguu.se/AVdSjfkk.jpg'
+let img = 'https://i.ibb.co/vPyGy8F/file.jpg'
 
   try {
           // DEFAULT MENU
