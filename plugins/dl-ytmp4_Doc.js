@@ -48,7 +48,7 @@ let { title, size, dl_url, thumb } = yt
 let img = await (await fetch(`${thumb}`)).buffer()
 if (size.split('MB')[0] >= limit) return star.reply(m.chat, `El archivo pesa mas de ${limit} MB, se cancela la Descarga.`, m, rcanal).then(_ => m.react('✅'))
 if (size.split('GB')[0] >= limit) return star.reply(m.chat, `El archivo pesa mas de ${limit} MB, se cancelÃ³ la Descarga.`, m, rcanal).then(_ => m.react('✅'))
-await star.sendMessage(m.chat, { document: { url: dl_url }, caption: '*By: AnyelitaBot*', mimetype: 'video/mp4', fileName: `${title}` + `.mp4`}, {quoted: fkontak })
+await star.sendMessage(m.chat, { document: { url: dl_url }, caption: '*By: KittenBot*', mimetype: 'video/mp4', fileName: `${title}` + `.mp4`}, {quoted: fkontak })
 await m.react('✅')
 } catch {
 await m.react('✖️')
