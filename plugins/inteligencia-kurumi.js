@@ -9,7 +9,7 @@ let handler = async (m, {
     command
 }) => {
 
- if (!text) throw '➤ `𝗔𝗩𝗜𝗦𝗢` ♣️\n\n*PARA USAR ANYELITA IA*\n_Ejemplo: .iakurumi que sos?_';
+ if (!text) throw '➤ `𝗔𝗩𝗜𝗦𝗢` ♣️\n\n*PARA USAR KITTEN IA*\n_Ejemplo: .iakurumi que sos?_';
     await m.react('♣️');
     try {
         const result = await chatAi(text);
