@@ -29,7 +29,7 @@ console.log(`Error : ${e}`)
 
 let pp = ''
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-//let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/ZlNo.jpg')
+//let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://i.ibb.co/vPyGy8F/file.jpg')
 
 //creador y otros
 global.creador = 'Wa.me/:51902855352'
@@ -66,7 +66,7 @@ global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 var canal = 'https://whatsapp.com/channel/0029VajfR79JENyA3ELFHf3o'  
 var git = 'https://github.com/Giovanni-OFC' 
 var github = 'https://github.com/Giovanni-OFC/kitten-Bot' 
-var instagram = 'https://www.instagram.com/dzn._anyelita?igsh=MWcwZnN5MTBlNXVqNg==' 
+var instagram = 'https://www.instagram.com/shizuku_ff' 
 
 global.redes = [canal, git, github, instagram].getRandom()
 
