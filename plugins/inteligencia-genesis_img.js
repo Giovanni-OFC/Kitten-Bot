@@ -40,9 +40,9 @@ let handler = async (m, {
         throw error;
     }
 }
-handler.help = ["Anyelitaimg"].map(v => v + " (img)");
+handler.help = ["Kittenimg"].map(v => v + " (img)");
 handler.tags = ["ai"];
-handler.command = /^(Anyelitaimg)$/i;
+handler.command = /^(Kittenimg)$/i;
 handler.limit = true;
 export default handler;
 
