@@ -23,7 +23,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
   let img = await (await fetch(`https://i.ibb.co/vPyGy8F/file.jpg`)).buffer()
   let txt = '*`📄 VERIFICACIÓN ACTUAL 📄`*\n'
-      txt += ` *∷💖∷∷∷∷∷∷∷∷∷∷∷∷💖∷*\n`
+      txt += ` *∷🌸∷∷∷∷∷∷∷∷∷∷∷∷🌸∷*\n`
       txt += `┊ *📝 NOMBRE*\n`
       txt += `┊ ⁘ \`${name}\`\n`
       txt += `┊\n`
@@ -36,7 +36,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
       txt += `┊ *📝 IDENTIFICADOR SERIAL*\n`
       txt += `┊ ⁘ \`${sn}\`\n`
       txt += `╰┈┈┈┈┈┈┈┈┈┈┈┈❦\n\n`
-      txt += '🩷 \```Escriba el siguiente comando para ver el menu completo:\```\n'
+      txt += '🌸 \```Escriba el siguiente comando para ver el menu completo:\```\n'
       txt += `✪ *.allmenu*`
 await conn.sendLuffy(m.chat, botname, textbot, txt, img, img, canal, m)
 await m.react('✅')
