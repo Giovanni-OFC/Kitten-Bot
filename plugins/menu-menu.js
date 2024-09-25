@@ -63,7 +63,7 @@ const defaultMenu = {
 │ ◦ *Rutina:* %muptime 
 └ ◦ *Database:*  %totalreg
 
-▣╾───────❤───────╼▣
+▣╾───────🌸───────╼▣
  %readmore
 \t\t\t_*LISTA DE MENÚS*_
 `.trimStart(),
@@ -95,7 +95,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       month: 'long',
       year: 'numeric'
     }).format(d)
-    let time = d.toLocaleTimeString(locale, {
+    let time = d.toLocaleTimeString(locale, {.
       hour: 'numeric',
       minute: 'numeric',
       second: 'numeric'
