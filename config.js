@@ -26,15 +26,15 @@ global.prems = []
 global.mods = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = '𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮 𝗕𝗼𝘁 𝗣𝗿𝗼'
+global.packname = '𝙆𝙞𝙩𝙩𝙚𝙣 𝗕𝗼𝘁 𝗣𝗿𝗼'
 global.author = '@usxr_angelito0'
-global.wm = '𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮 𝗣𝗿𝗼'
-global.titulowm = 'AnyelitaBot-Pro 🩷'
+global.wm = '𝙆𝙞𝙩𝙩𝙚𝙣 𝗣𝗿𝗼'
+global.titulowm = 'KittenBot 🌸'
 global.titulowm2 = ''
-global.igfg = '@usxr_angelito0'
-global.botname = '𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮𝗕𝗼𝘁 🩷'
-global.dev = '`𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮𝗕𝗼𝘁 🩷`\n*By • Titanium Team 💥*'
-global.textbot = '𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮𝗕𝗼𝘁 : 𝗚𝗶𝗼𝘃𝗮𝗻𝗻𝗶 🩷'
+global.igfg = '@giovanni_.ofc'
+global.botname = '𝙆𝙞𝙩𝙩𝙚𝙣𝗕𝗼𝘁,🌸'
+global.dev = '`𝙆𝙞𝙩𝙩𝙚𝙣𝗕𝗼𝘁 🌸`\n*By • 𝚂𝙿𝙾𝚁𝚃 𝚃𝙴𝙰𝙼 💥*'
+global.textbot = '𝙆𝙞𝙩𝙩𝙚𝙣𝗕𝗼𝘁 : 𝗚𝗶𝗼𝘃𝗮𝗻𝗻𝗶 🌸'
 global.vs = '1.4.0'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
@@ -44,11 +44,11 @@ global.imagen3 = fs.readFileSync('./Menu3.jpg')
 global.catalogo = fs.readFileSync('./media/catalogo.jpg')
 
 //• ↳ ◜𝑭𝑨𝑲𝑬 𝑬𝑺𝑻𝑰𝑳𝑶◞ • 🪩
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '𝗔𝗻𝘆𝗲𝗹𝗶𝘁𝗮𝗕𝗼𝘁-𝗠𝗗', orderTitle: 'packname', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '𝙆𝙞𝙩𝙩𝙚𝙣𝗕𝗼𝘁-𝗠𝗗', orderTitle: 'packname', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
 global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Megumin', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𖥔.𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨❞ ꔷ──᜔◇⃟̣̣⃕✨', jpegThumbnail: catalogo }}};
 
-global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Megumin', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝙰 𝙽 𝚈 𝙴 𝙻 𝙸 𝚃 𝙰 ♡', jpegThumbnail: catalogo }}};
+global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Kitten', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝙰 𝙽 𝚈 𝙴 𝙻 𝙸 𝚃 𝙰 ♡', jpegThumbnail: catalogo }}};
 
 global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Megumin', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐒𝐭𝐢𝐜𝐤𝐞𝐫 (^_^♪) 💥', jpegThumbnail: catalogo }}};
 
