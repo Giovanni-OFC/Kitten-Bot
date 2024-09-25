@@ -55,14 +55,14 @@ global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remote
 global.estilox = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐', orderTitle: 'packname', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.id_canal = '120363315614329082@newsletter' //-ID de canal de WhatsApp
-global.canal = 'https://whatsapp.com/channel/0029VajfR79JENyA3ELFHf3o' //CANAL SPORT
+global.id_canal = '120363320318747678@newsletter' //-ID de canal de WhatsApp
+global.canal = 'https://whatsapp.com/channel/0029VaolYwVHgZWWifsZCJ45' //CANAL SPORT
 global.canal2 = 'https://whatsapp.com/channel/0029VafjvaaEgGfOe5KdmX1n' //CANAL TITANIUM TEAM
 global.bgp = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6' //GRUPO DE AVISOS
 global.bgp2 = 'https://chat.whatsapp.com/GmvA6FdBb52B3dNtcDCFAJ' //GRUPO GLOBAL 1
 global.bgp3 = 'https://chat.whatsapp.com/IfASvKKUqZBGCT3bKO7wla' //GRUPO GLOBAL 2
 global.bgp4 = 'https://chat.whatsapp.com/Fn5Ipyxu6mE6qEQlwWZTwU' //GRUPO NSFW
-global.md = 'https://github.com/Giovanni-OFC/Anyelita-Bot' //Github Oficial
+global.md = 'https://github.com/Giovanni-OFC/Kitten-Bot' //Github Oficial
 global.ig = 'https://www.instagram.com/dzn._anyelita?igsh=MWcwZnN5MTBlNXVqNg==' //Ig Oficial
 global.correo = 'gemersport7@gmail.com'
 
