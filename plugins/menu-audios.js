@@ -190,7 +190,7 @@ await m.react('🎶')
         contextInfo: {
         externalAdReply: {
         title: '𝐊𝐢𝐭𝐭𝐞𝐧𝐁𝐨𝐭-𝐌𝐃',
-        body: '©𝟐𝟎𝟐𝟒 𝐀𝐧𝐠𝐞𝐥𝐢𝐭𝐨-𝐎𝐅𝐂',
+        body: '©𝟐𝟎𝟐𝟒 𝐆𝐢𝐨𝐯𝐚𝐧𝐧𝐢-𝐎𝐅𝐂',
         thumbnailUrl: img,
         sourceUrl: global.canal,
         mediaType: 1,
