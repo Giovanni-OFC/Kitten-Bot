@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
 
-"homepage": "https://github.com/Giovanni-OFC/Anyelita-Bot",
+"homepage": "https://github.com/Giovanni-OFC/Kitten-Bot",
 "author": {
 "name": "Giovanni-OFC" },
 
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Giovanni-OFC/Anyelita-Bot.git" },
+"url": "git+https://github.com/Giovanni-OFC/Kitten-Bot.git" },
 
 "bugs": {
-"url": "https://github.com/Giovanni-OFC/Anyelita-Bot/issues" },
+"url": "https://github.com/Giovanni-OFC/Kitten-Bot/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@adiwajshing/keyed-db": "^0.2.4",
