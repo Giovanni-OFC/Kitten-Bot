@@ -112,8 +112,8 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `AnyelitaSession`
-global.authFileJB = `AnyelitaJadiBot`
+global.authFile = `KittenSession`
+global.authFileJB = `KittenJadiBot`
 
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = (MessageRetryMap) => { }
