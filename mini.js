@@ -308,7 +308,7 @@ const mainBotAuthFile = 'KittenSession';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`⭐ AnyelitaBot-MD conectado correctamente.`))
+console.log(chalk.bold.greenBright(`⭐ KittenBot-MD conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
