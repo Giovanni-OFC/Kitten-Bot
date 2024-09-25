@@ -187,7 +187,7 @@ let img = 'https://f.uguu.se/AVdSjfkk.jpg'
 await m.react('☕') 
 
 await conn.sendButton(m.chat, text, '@usxr_angelito0', img, [
-['MENU COMPLETO🩷', '.allmenu'], ['DUEÑO 🫧', '.owner']], null, [['CANAL 🐈‍⬛', `${canal}`]], m)
+['MENU COMPLETO🌸', '.allmenu'], ['DUEÑO 🫧', '.owner']], null, [['CANAL 🐈‍⬛', `${canal}`]], m)
   } catch (e) {
     conn.reply(m.chat, 'Lo siento, el menú tiene un error.', m)
     throw e
