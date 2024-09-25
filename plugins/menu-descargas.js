@@ -190,7 +190,7 @@ await m.react('📥')
         text: text,
         contextInfo: {
         externalAdReply: {
-        title: '𝐀𝐧𝐲𝐞𝐥𝐢𝐭𝐚𝐁𝐨𝐭-𝐌𝐃',
+        title: '𝐊𝐢𝐭𝐭𝐞𝐧𝐁𝐨𝐭-𝐌𝐃',
         body: '©𝟐𝟎𝟐𝟒 𝐆𝐢𝐨𝐯𝐚𝐧𝐧𝐢-𝐎𝐅𝐂',
         thumbnailUrl: img,
         sourceUrl: global.canal,
