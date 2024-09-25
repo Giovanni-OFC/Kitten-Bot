@@ -279,9 +279,9 @@ process.on('uncaughtException', console.error)
 /* Echo por: https://github.com/elrebelde21 */
 
 /*async function connectSubBots() {
-const subBotDirectory = './AnyelitaJadiBot';
+const subBotDirectory = './KittenJadiBot';
 if (!existsSync(subBotDirectory)) {
-console.log('🌟 AnyelitaBot-MD no tiene Sub-Bots vinculados.');
+console.log('🌟 Kitten-Bot no tiene Sub-Bots vinculados.');
 return;
 }
 
@@ -304,7 +304,7 @@ console.log(chalk.bold.greenBright(`🍟 Todos los Sub-Bots se conectaron con é
 (async () => {
 global.conns = [];
 
-const mainBotAuthFile = 'AnyelitaSession';
+const mainBotAuthFile = 'KittenSession';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
@@ -312,7 +312,7 @@ console.log(chalk.bold.greenBright(`⭐ AnyelitaBot-MD conectado correctamente.`
 
 await connectSubBots();
 } catch (error) {
-console.error(chalk.bold.cyanBright(`⭐ Error al iniciar GenesisBot-MD: `, error))
+console.error(chalk.bold.cyanBright(`⭐ Error al iniciar Kitten-Bot: `, error))
 }
 })();*/
 
