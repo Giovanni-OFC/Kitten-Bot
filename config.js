@@ -63,7 +63,7 @@ global.bgp2 = 'https://chat.whatsapp.com/GmvA6FdBb52B3dNtcDCFAJ' //GRUPO GLOBAL 
 global.bgp3 = 'https://chat.whatsapp.com/IfASvKKUqZBGCT3bKO7wla' //GRUPO GLOBAL 2
 global.bgp4 = 'https://chat.whatsapp.com/Fn5Ipyxu6mE6qEQlwWZTwU' //GRUPO NSFW
 global.md = 'https://github.com/Giovanni-OFC/Kitten-Bot' //Github Oficial
-global.ig = 'https://www.instagram.com/dzn._anyelita?igsh=MWcwZnN5MTBlNXVqNg==' //Ig Oficial
+global.ig = 'https://www.instagram.com/shizuku_ff' //Ig Oficial
 global.correo = 'gemersport7@gmail.com'
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
